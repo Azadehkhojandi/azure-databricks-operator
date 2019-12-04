@@ -10,7 +10,7 @@ spec:
       control-plane: controller-manager
   namespaceSelector:
     matchNames:
-      - $(NAMESPACE)
+      - azure-databricks-operator-system
   endpoints:
   - path: /metrics
     port: http
